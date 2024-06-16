@@ -1,0 +1,132 @@
+<!--
+chote waaalon ko divide nahi karna hai kyunki woh chote hai or
+size k bade se divide karke remainder mil jayega
+9+1)%11 =
+ChatGPT
+To calculate (9 + 1) % 11:
+
+Evaluate the expression inside the parentheses: 9 + 1 = 10.
+Apply the modulo operation (% 11): 10 % 11 = 10.
+So, (9 + 1) % 11 equals 10.
+
+User
+(7+1)%11=
+ChatGPT
+To calculate (7 + 1) % 11:
+
+Evaluate the expression inside the parentheses: 7 + 1 = 8.
+Apply the modulo operation (% 11): 8 % 11 = 8.
+So, (7 + 1) % 11 equals 8.
+
+User
+(3+1)%11=
+ChatGPT
+To calculate (3 + 1) % 11:
+
+Evaluate the expression inside the parentheses: 3 + 1 = 4.
+Apply the modulo operation (% 11): 4 % 11 = 4.
+So, (3 + 1) % 11 equals 4.
+
+User
+(2+1)%12=
+ChatGPT
+To calculate (2 + 1) % 12:
+
+Evaluate the expression inside the parentheses: 2 + 1 = 3.
+Apply the modulo operation (% 12): 3 % 12 = 3.
+So, (2 + 1) % 12 equals 3.
+
+User
+break it down
+ChatGPT
+Certainly! Let's break it down step by step:
+
+Expression Inside Parentheses:
+2
+
+- 1
+  2+1
+  Evaluate the sum:
+  2
+- # 1
+  3
+  2+1=3
+
+Modulo Operation (% 12):
+3
+m
+o
+d
+
+
+
+12
+3mod12
+Apply the modulo operation (remainder when divided by 12):
+3
+m
+o
+d
+
+
+
+12
+=
+3
+3mod12=3
+
+Therefore,
+(
+2
+
+- 1
+  )
+  m
+  o
+  d
+
+
+
+12
+=
+3
+(2+1)mod12=3. The result is 3.
+
+User
+(5
+ChatGPT
+It seems like your message got cut off. Could you please provide the complete expression you'd like me to evaluate?
+
+User
+(5+1)%6 =
+ChatGPT
+(5 + 1) % 6 = 0
+
+User
+(6+1)%6=
+ChatGPT
+(6 + 1) % 6 = 1
+
+User
+(6+11)%6=
+ChatGPT
+(6 + 11) % 6 = 5
+
+User
+(6+2)%=
+ChatGPT
+It looks like there's a missing operand in your expression. If you intended to write (6 + 2) % 6, then the result would be 2. If you could provide the complete expression, I can help you further.
+
+User
+(6+5)%6=
+ChatGPT
+The expression (6 + 5) % 6 evaluates to 5.
+
+User
+(6+12)%6=
+ChatGPT
+The expression (6 + 12) % 6 is equal to 0.
+
+
+User
+okk now no need to explain futher untill i say becoz i got it -->

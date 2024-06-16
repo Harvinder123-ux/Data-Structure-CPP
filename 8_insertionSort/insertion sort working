@@ -1,0 +1,58 @@
+# Certainly, let's walk through the working of the provided insertion sort algorithm step by step:
+
+# Assume you have an array A with elements: [5, 2, 9, 1, 5, 6]
+
+# Initial State:
+
+# A: [5, 2, 9, 1, 5, 6]
+# n (size of the array): 6
+# First Iteration (i = 1):
+
+# Set key to A[1] (key = 2)
+# Set j to i - 1 (j = 0)
+# While loop checks if j >= 0 and A[j] > key (5 > 2):
+# Move 5 to the right (A[j + 1] = A[j])
+# Decrement j (j = -1)
+# Place key (2) in the correct position: A[j + 1] = key (A[0] = 2)
+# Updated array: [2, 5, 9, 1, 5, 6]
+# Second Iteration (i = 2):
+
+# Set key to A[2] (key = 9)
+# Set j to i - 1 (j = 1)
+# While loop checks if j >= 0 and A[j] > key (5 > 9): No, exit the loop.
+# Place key (9) in the correct position: A[j + 1] = key (A[1] = 9)
+# Updated array: [2, 9, 5, 1, 5, 6]
+# Third Iteration (i = 3):
+
+# Set key to A[3] (key = 1)
+# Set j to i - 1 (j = 2)
+# While loop checks if j >= 0 and A[j] > key (9 > 1):
+# Move 9 to the right (A[j + 1] = A[j])
+# Decrement j (j = 1)
+# While loop checks if j >= 0 and A[j] > key (2 > 1):
+# Move 2 to the right (A[j + 1] = A[j])
+# Decrement j (j = 0)
+# Place key (1) in the correct position: A[j + 1] = key (A[0] = 1)
+# Updated array: [1, 2, 9, 5, 5, 6]
+# Fourth Iteration (i = 4):
+
+# Set key to A[4] (key = 5)
+# Set j to i - 1 (j = 3)
+# While loop checks if j >= 0 and A[j] > key (9 > 5):
+# Move 9 to the right (A[j + 1] = A[j])
+# Decrement j (j = 2)
+# Place key (5) in the correct position: A[j + 1] = key (A[3] = 5)
+# Updated array: [1, 2, 5, 9, 5, 6]
+# Fifth Iteration (i = 5):
+
+# Set key to A[5] (key = 6)
+# Set j to i - 1 (j = 4)
+# While loop checks if j >= 0 and A[j] > key (9 > 6):
+# Move 9 to the right (A[j + 1] = A[j])
+# Decrement j (j = 3)
+# Place key (6) in the correct position: A[j + 1] = key (A[4] = 6)
+# Updated array: [1, 2, 5, 5, 6, 9]
+# Final Sorted Array:
+
+# A: [1, 2, 5, 5, 6, 9]
+# The array is now sorted using the insertion sort algorithm.

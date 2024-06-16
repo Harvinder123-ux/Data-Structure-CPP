@@ -1,0 +1,52 @@
+# Certainly! The condition n-1-i in the inner loop of the bubble sort algorithm is used to optimize the sorting process. Let's break it down number-wise to understand its working:
+
+# Suppose we have an array of size n:
+
+# javascript
+# Copy code
+# Original Array: [5, 3, 9, 1, 7]
+# Here, n is the size of the array, and i represents the pass number. In each pass, the largest unsorted element is bubbled to its correct position. The n-1-i condition ensures that we don't need to compare the last i elements in each pass because they are already in their correct positions.
+
+# Pass 1 (i = 0):
+
+# Compare and swap adjacent elements up to the second-to-last element (n-1-0 = n-1).
+# In the first pass, the largest element will be bubbled to the last position.
+# vbnet
+# Copy code
+# Compare 5 and 3 (swap): [3, 5, 9, 1, 7]
+# Compare 5 and 9 (no swap)
+# Compare 9 and 1 (swap): [3, 5, 1, 9, 7]
+# Compare 9 and 7 (swap): [3, 5, 1, 7, 9]
+# Array after Pass 1: [3, 5, 1, 7, 9]
+
+# Pass 2 (i = 1):
+
+# Compare and swap adjacent elements up to the second-to-last element (n-1-1 = n-2).
+# In the second pass, the second-largest element will be bubbled to the second-to-last position.
+# vbnet
+# Copy code
+# Compare 3 and 5 (no swap)
+# Compare 5 and 1 (swap): [3, 1, 5, 7, 9]
+# Compare 5 and 7 (no swap)
+# Array after Pass 2: [3, 1, 5, 7, 9]
+
+# Pass 3 (i = 2):
+
+# Compare and swap adjacent elements up to the second-to-last element (n-1-2 = n-3).
+# In the third pass, the third-largest element will be bubbled to the third-to-last position.
+# vbnet
+# Copy code
+# Compare 3 and 1 (swap): [1, 3, 5, 7, 9]
+# Compare 3 and 5 (no swap)
+# Array after Pass 3: [1, 3, 5, 7, 9]
+
+# Pass 4 (i = 3):
+
+# Compare and swap adjacent elements up to the second-to-last element (n-1-3 = n-4).
+# In the fourth pass, the fourth-largest element will be bubbled to the fourth-to-last position.
+# perl
+# Copy code
+# Compare 1 and 3 (no swap)
+# Array after Pass 4: [1, 3, 5, 7, 9]
+
+# After each pass, the largest unsorted element gets placed in its correct position, and the range of comparison in the next pass is reduced by one element. This optimization helps to reduce unnecessary comparisons for already sorted elements.
